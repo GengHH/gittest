@@ -1,0 +1,43 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "genghonghui",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "prepare": "husky install",
+    "lint": "eslint --ext .js,.vue,.ts src --fix",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GengHH/gittest.git"
+  },
+  "author": "GengHH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GengHH/gittest/issues"
+  },
+  "homepage": "https://github.com/GengHH/gittest#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "commitizen": "^4.2.5",
+    "commitlint": "^17.1.2",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
